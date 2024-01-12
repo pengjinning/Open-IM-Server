@@ -16,9 +16,10 @@ package mgo
 
 import (
 	"context"
+	"time"
+
 	"github.com/OpenIMSDK/protocol/user"
 	"github.com/OpenIMSDK/tools/errs"
-	"time"
 
 	"github.com/OpenIMSDK/tools/mgoutil"
 	"github.com/OpenIMSDK/tools/pagination"
